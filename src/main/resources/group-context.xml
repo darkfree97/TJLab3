@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="group_143" class="sample.model.Group">
+        <property name="id" value="0"/>
+        <property name="name" value="143"/>
+        <property name="curator" value="Янушевський С.В."/>
+        <property name="monitorId" value="3"/>
+        <property name="chairId" value="2"/>
+    </bean>
+    <bean id="group_243" class="sample.model.Group">
+        <property name="id" value="1"/>
+        <property name="name" value="243"/>
+        <property name="curator" value="Комісарчук В.В."/>
+        <property name="monitorId" value="7"/>
+        <property name="chairId" value="2"/>
+    </bean>
+    <bean id="group_343" class="sample.model.Group">
+        <property name="id" value="2"/>
+        <property name="name" value="343"/>
+        <property name="curator" value="Куратор І.Б."/>
+        <property name="monitorId" value="12"/>
+        <property name="chairId" value="2"/>
+    </bean>
+    <bean id="group_443" class="sample.model.Group">
+        <property name="id" value="3"/>
+        <property name="name" value="443"/>
+        <property name="curator" value="Куратор І.Б."/>
+        <property name="monitorId" value="22"/>
+        <property name="chairId" value="2"/>
+    </bean>
+    <bean id="group_543" class="sample.model.Group">
+        <property name="id" value="4"/>
+        <property name="name" value="543"/>
+        <property name="curator" value="Миронів І.В."/>
+        <property name="monitorId" value="4"/>
+        <property name="chairId" value="2"/>
+    </bean>
+
+</beans>

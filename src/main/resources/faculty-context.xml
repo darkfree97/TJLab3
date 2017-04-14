@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="fac_0" class="sample.model.Faculty">
+        <property name="id" value="0"/>
+        <property name="fullName" value="Комп’ютерних технологій"/>
+        <property name="abr" value="КТ"/>
+        <property name="dean" value="Бесага Роман Миколайович"/>
+        <property name="phoneNumber" value="+38(067) 37-20-229"/>
+    </bean>
+    <bean id="fac_1" class="sample.model.Faculty">
+        <property name="id" value="1"/>
+        <property name="fullName" value="Інфокомунікацій та інженерії"/>
+        <property name="abr" value="ІІ"/>
+        <property name="dean" value="Політанський Леонід Францович"/>
+        <property name="phoneNumber" value="+38 (03722) 4-24-36"/>
+    </bean>
+    <bean id="fac_2" class="sample.model.Faculty">
+        <property name="id" value="2"/>
+        <property name="fullName" value="Фізики"/>
+        <property name="abr" value="Ф"/>
+        <property name="dean" value="Крамар Валерій Максимович"/>
+        <property name="phoneNumber" value="+38 (0372) 54-72-42"/>
+    </bean>
+    <bean id="fac_3" class="sample.model.Faculty">
+        <property name="id" value="3"/>
+        <property name="fullName" value="Електроніки, електротехніки, напівпровідникового та наноматеріалознавства"/>
+        <property name="abr" value="ЕЕНН"/>
+        <property name="dean" value="Мар’янчук Павло Дмитрович"/>
+        <property name="phoneNumber" value="+38 (03722) 4-68-77"/>
+    </bean>
+
+
+</beans>

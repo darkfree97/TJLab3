@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="faculty-context.xml"/>
+
+    <bean id="chair_0" class="sample.model.Chair">
+        <property name="id" value="0"/>
+        <property name="fullName" value="Кафедра комп'ютерних систем та мереж"/>
+        <property name="abr" value="КСМ"/>
+        <property name="chairman" value="Бесага Роман Миколайович"/>
+        <property name="phoneNumber" value="+38(067) 37-20-229"/>
+        <property name="faculty" value="0"/>
+    </bean>
+    <bean id="chair_1" class="sample.model.Chair">
+        <property name="id" value="1"/>
+        <property name="fullName" value="Кафедра математичних проблем управління і кібернетики"/>
+        <property name="abr" value="МПУіК"/>
+        <property name="chairman" value="Бесага Роман Миколайович"/>
+        <property name="phoneNumber" value="+38(067) 37-20-229"/>
+        <property name="faculty" value="0"/>
+    </bean>
+    <bean id="chair_2" class="sample.model.Chair">
+        <property name="id" value="2"/>
+        <property name="fullName" value="Кафедра програмного забезпечення комп’ютерних систем"/>
+        <property name="abr" value="ПЗКС"/>
+        <property name="chairman" value="Бесага Роман Миколайович"/>
+        <property name="phoneNumber" value="+38(067) 37-20-229"/>
+        <property name="faculty" value="0"/>
+    </bean>
+    <bean id="chair_3" class="sample.model.Chair">
+        <property name="id" value="3"/>
+        <property name="fullName" value="Кафедра комп'ютерних наук"/>
+        <property name="abr" value="КН"/>
+        <property name="chairman" value="Бесага Роман Миколайович"/>
+        <property name="phoneNumber" value="+38(067) 37-20-229"/>
+        <property name="faculty" value="0"/>
+    </bean>
+
+</beans>

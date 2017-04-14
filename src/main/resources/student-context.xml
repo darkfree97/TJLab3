@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="group-context.xml"/>
+    <bean id="stud_id_00" class="sample.model.Student">
+        <property name="id" value="0"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Андрій"/>
+        <property name="surname" value="Войцехівський"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_01" class="sample.model.Student">
+        <property name="id" value="1"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Юлія"/>
+        <property name="surname" value="Гаманжій"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_02" class="sample.model.Student">
+        <property name="id" value="2"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Влад"/>
+        <property name="surname" value="Ганкевич"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_03" class="sample.model.Student">
+        <property name="id" value="3"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Вікторія"/>
+        <property name="surname" value="Гуцуляк"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_04" class="sample.model.Student">
+        <property name="id" value="4"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Дмитро"/>
+        <property name="surname" value="Дроник"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_05" class="sample.model.Student">
+        <property name="id" value="5"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Ростислав"/>
+        <property name="surname" value="Дячук"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_06" class="sample.model.Student">
+        <property name="id" value="6"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Олена"/>
+        <property name="surname" value="Зозуля"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_07" class="sample.model.Student">
+        <property name="id" value="7"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Віктор"/>
+        <property name="surname" value="Ілін"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_08" class="sample.model.Student">
+        <property name="id" value="8"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Максим"/>
+        <property name="surname" value="Євсєєв"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_09" class="sample.model.Student">
+        <property name="id" value="9"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Володимир"/>
+        <property name="surname" value="Козицький"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_10" class="sample.model.Student">
+        <property name="id" value="10"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Денис"/>
+        <property name="surname" value="Мацюра"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_11" class="sample.model.Student">
+        <property name="id" value="11"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Дмитро"/>
+        <property name="surname" value="Косташ"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_12" class="sample.model.Student">
+        <property name="id" value="12"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Максим"/>
+        <property name="surname" value="Осадчук"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_13" class="sample.model.Student">
+        <property name="id" value="13"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Іван"/>
+        <property name="surname" value="Овдієнко"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_14" class="sample.model.Student">
+        <property name="id" value="14"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Ігор"/>
+        <property name="surname" value="Палій"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_15" class="sample.model.Student">
+        <property name="id" value="15"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Влад"/>
+        <property name="surname" value="Пилипенко"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_16" class="sample.model.Student">
+        <property name="id" value="16"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Андрій"/>
+        <property name="surname" value="Перепилиця"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_17" class="sample.model.Student">
+        <property name="id" value="17"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Анастасія"/>
+        <property name="surname" value="Прохорова"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_18" class="sample.model.Student">
+        <property name="id" value="18"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Максим"/>
+        <property name="surname" value="Сорокін"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_19" class="sample.model.Student">
+        <property name="id" value="19"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Андрій"/>
+        <property name="surname" value="Снозик"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_20" class="sample.model.Student">
+        <property name="id" value="20"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Володимир"/>
+        <property name="surname" value="Сидорович"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_21" class="sample.model.Student">
+        <property name="id" value="21"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Родіон"/>
+        <property name="surname" value="Тулубінський"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_22" class="sample.model.Student">
+        <property name="id" value="22"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Андрій"/>
+        <property name="surname" value="Черевко"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_23" class="sample.model.Student">
+        <property name="id" value="23"/>
+        <property name="numberOfStudentCard" value="0"/>
+        <property name="name" value="Микола"/>
+        <property name="surname" value="Щербак"/>
+        <property name="group" ref="group_243"/>
+    </bean>
+    <bean id="stud_id_24" class="sample.model.Student">
+        <property name="id" value="24"/>
+        <property name="numberOfStudentCard" value="1"/>
+        <property name="name" value="Ігор"/>
+        <property name="surname" value="Палій"/>
+        <property name="group" ref="group_543"/>
+
+    </bean>
+
+</beans>

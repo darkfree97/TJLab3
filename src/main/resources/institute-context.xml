@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="inst_00" class="sample.model.Institute">
+        <property name="id" value="0"/>
+        <property name="fullName" value="Інститут фізико-технічних та комп’ютерних наук"/>
+        <property name="abr" value="ІФТКН"/>
+        <property name="chief" value="Ангельський Олег В'ячеславович"/>
+        <property name="phoneNumber" value="+38 (0372) 54-71-73"/>
+    </bean>
+    <bean id="inst_01" class="sample.model.Institute">
+        <property name="id" value="1"/>
+        <property name="fullName" value="Інститут біології, хімії та біоресурсів"/>
+        <property name="abr" value="ІБХБ"/>
+        <property name="chief" value="Марченко Михайло Маркович"/>
+        <property name="phoneNumber" value="+38 (0372) 58-48-17"/>
+    </bean>
+    <bean id="inst_02" class="sample.model.Institute">
+        <property name="id" value="2"/>
+        <property name="fullName" value="Економічний факультет"/>
+        <property name="abr" value="ЕФ"/>
+        <property name="chief" value="Білоскурський Руслан Романович"/>
+        <property name="phoneNumber" value="(0372)-52-48-07"/>
+    </bean>
+    <bean id="inst_03" class="sample.model.Institute">
+        <property name="id" value="3"/>
+        <property name="fullName" value="Факультет іноземних мов"/>
+        <property name="abr" value="Іняз"/>
+        <property name="chief" value="Осовська Ірина Миколаївна"/>
+        <property name="phoneNumber" value="58-47-35"/>
+    </bean>
+</beans>

@@ -1,0 +1,29 @@
+.grid_pane{
+    -fx-background-image: url("../images/back.jpg");
+}
+
+.body{
+    -fx-background-image: url("../images/journal.jpg");
+}
+.text-area{
+    -fx-opacity: 90%;
+}
+.right_pane{
+    -fx-opacity: 80%;
+}
+.labels{
+    -fx-text-fill: blueviolet;
+}
+.button{
+    -fx-background-color: silver;
+    -fx-background: url("../images/glass-btn.png") repeat-x 0 49%;
+    -fx-background-radius: 25px;
+    -fx-border-color: #3a3a3a;
+    -fx-border-radius: 25px;
+}
+.button:hover{
+    -fx-background-color: lightgray;
+}
+.button:pressed{
+    -fx-background-color: darkgray;
+}
